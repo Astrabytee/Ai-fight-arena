@@ -1,7 +1,9 @@
+
 services:
   - type: web
     name: ai-fight-arena-online
     runtime: node
     plan: free
+    rootDir: ai-fight-arena-online
     buildCommand: npm install
     startCommand: node server.js
